@@ -8,6 +8,5 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
-  // base:'./',
-  base: "/Dev_Link"
-})
+  base:'./',
+  })
