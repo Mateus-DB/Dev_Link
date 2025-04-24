@@ -26,7 +26,7 @@ export function Header() {
                 </div>
 
                 <button onClick={handleLogout}>
-                    <BiLogOut size={28} color="#db2629" />
+                    <BiLogOut className="cursor-pointer" size={28} color="#db2629" />
                 </button>
 
             </nav>
