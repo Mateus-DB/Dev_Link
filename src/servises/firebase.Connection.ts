@@ -4,12 +4,12 @@ import { getAuth} from 'firebase/auth';
 import { getFirestore} from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAQaVXkuuPpw_kLg8acYZnb6C0Ta6DLdLk",
-  authDomain: "reactlinks-c66d9.firebaseapp.com",
-  projectId: "reactlinks-c66d9",
-  storageBucket: "reactlinks-c66d9.firebasestorage.app",
-  messagingSenderId: "650900376249",
-  appId: "1:650900376249:web:160b263252334a56a1a968"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 
